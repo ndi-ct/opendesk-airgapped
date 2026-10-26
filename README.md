@@ -29,7 +29,7 @@ Das Rack hat zwei Netze. Im **Rack-Netz** (VLAN 50, `192.168.50.0/24`) hängen d
 
 ## Der Cluster
 
-![Cluster-Ebene](cluster.svg)
+![Cluster-Ebene](clusterv2.svg)
 
 Die drei Nodes laufen mit [Talos Linux](https://www.talos.dev/) 1.14 und Kubernetes 1.37. Talos ist ein Betriebssystem nur für Kubernetes: Das System ist schreibgeschützt (immutable), es gibt weder SSH noch Shell. Die gesamte Konfiguration steht deklarativ in YAML-Dateien und wird über eine API eingespielt. Für einen Air-Gap ist das praktisch, denn es gibt keine Paketverwaltung, die nach außen telefoniert, und jeder Node lässt sich aus seiner Konfigurationsdatei reproduzierbar neu aufsetzen. Alle drei sind gleichzeitig Control Plane und Worker, damit der Cluster auch bei Ausfall eines Nodes weiterläuft und keine Hardware ungenutzt bleibt.
 
