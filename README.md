@@ -23,7 +23,7 @@ Ein transportables 10-Zoll-Rack, auf dem [openDesk](https://www.opendesk.eu/) vo
 
 ## Aufbau des Racks
 
-![Rack und Netz](rack.svg)
+![Rack und Netz](rackv2.svg)
 
 Das Rack hat zwei Netze. Im **Rack-Netz** (VLAN 50, `192.168.50.0/24`) hängen die drei Nodes und der Pi. Das **Besucher-WLAN** (`192.168.60.0/24`) spannt der Pi über einen USB-Stick auf. Eine nftables-Firewall auf dem Pi lässt aus dem WLAN nur DNS-Anfragen an den Pi und HTTPS zur Ingress-IP des Clusters durch. Die Verwaltungsoberflächen des Pi sind für Besucher nicht erreichbar.
 
