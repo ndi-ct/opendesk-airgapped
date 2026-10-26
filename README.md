@@ -23,13 +23,13 @@ Ein transportables 10-Zoll-Rack, auf dem [openDesk](https://www.opendesk.eu/) vo
 
 ## Aufbau des Racks
 
-![Rack und Netz](docs/rack.svg)
+![Rack und Netz](rack.svg)
 
 Das Rack hat zwei Netze. Im **Rack-Netz** (VLAN 50, `192.168.50.0/24`) hängen die drei Nodes und der Pi. Das **Besucher-WLAN** (`192.168.60.0/24`) spannt der Pi über einen USB-Stick auf. Eine nftables-Firewall auf dem Pi lässt aus dem WLAN nur DNS-Anfragen an den Pi und HTTPS zur Ingress-IP des Clusters durch. Die Verwaltungsoberflächen des Pi sind für Besucher nicht erreichbar.
 
 ## Der Cluster
 
-![Cluster-Ebene](docs/cluster.svg)
+![Cluster-Ebene](cluster.svg)
 
 Die drei Nodes laufen mit [Talos Linux](https://www.talos.dev/) 1.14 und Kubernetes 1.37. Talos ist ein Betriebssystem nur für Kubernetes: Das System ist schreibgeschützt (immutable), es gibt weder SSH noch Shell. Die gesamte Konfiguration steht deklarativ in YAML-Dateien und wird über eine API eingespielt. Für einen Air-Gap ist das praktisch, denn es gibt keine Paketverwaltung, die nach außen telefoniert, und jeder Node lässt sich aus seiner Konfigurationsdatei reproduzierbar neu aufsetzen. Alle drei sind gleichzeitig Control Plane und Worker, damit der Cluster auch bei Ausfall eines Nodes weiterläuft und keine Hardware ungenutzt bleibt.
 
