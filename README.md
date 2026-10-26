@@ -19,7 +19,7 @@ Ein transportables 10-Zoll-Rack, auf dem [openDesk](https://www.opendesk.eu/) vo
 | USB-WLAN-Stick | Access Point für das Besucher-WLAN |
 | Managed L2-Switch, 8 Ports (Digitus) | Rack-Netz |
 | Patchpanel, 12 Ports | Verkabelung |
-| 10-Zoll-Rack (DeskPi RackMate T2) mit Fachböden und PDUs | Gehäuse und Strom |
+| 10-Zoll-Rack (DeskPi RackMate T2) mit Fachböden | Gehäuse und Strom |
 
 ## Aufbau des Racks
 
