@@ -9,7 +9,7 @@ Ein transportables 10-Zoll-Rack, auf dem [openDesk](https://www.opendesk.eu/) vo
 ## Was die Demo zeigt
 
 - Eine komplette openDesk-Installation (Community Edition 1.19) auf drei Kubernetes-Nodes.
-- Rack hat und verbundene Geräte haben keinen Internetzugang. Container-Images, Helm-Charts, DNS, NTP und TLS-Zertifikat stecken im Rack.
+- Rack und verbundene Geräte haben keinen Internetzugang. Container-Images, Helm-Charts, DNS, NTP und TLS-Zertifikat stecken im Rack.
 - Besucher nutzen die Oberfläche über ein eigenes WLAN, das nur DNS und HTTPS zum Cluster durchlässt.
 
 ## Hardware
