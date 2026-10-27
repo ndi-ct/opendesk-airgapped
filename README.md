@@ -1,6 +1,6 @@
 # Air-Gapped-openDesk
 
-Ein transportables 10-Zoll-Rack, auf dem [openDesk](https://www.opendesk.eu/) vollständig ohne Internetverbindung läuft. Gebaut als Live-Demo die [Public IT](https://public-it.de/): Besucher verbinden ihr Smartphone mit dem WLAN-AP und können E-Mail, Dateien, Office, Projekte, Aufgaben und Videokonferenz ausprobieren.
+Ein transportables 10-Zoll-Rack, auf dem [openDesk](https://www.opendesk.eu/) vollständig ohne Internetverbindung läuft. Gebaut als Live-Demo für die [Public IT](https://public-it.de/): Besucher verbinden ihr Smartphone mit dem WLAN-AP und können E-Mail, Dateien, Office, Projekte, Aufgaben und Videokonferenz ausprobieren.
 
 ![openDesk-Portal](portal.png)
 
