@@ -2,6 +2,8 @@
 
 Ein transportables 10-Zoll-Rack, auf dem [openDesk](https://www.opendesk.eu/) vollständig ohne Internetverbindung läuft. Gebaut als Live-Demo für den Messestand bei der [Public IT](https://public-it.de/): Besucher verbinden ihr Smartphone mit einem WLAN ohne Internet und arbeiten trotzdem mit E-Mail, Dateien, Office, Chat und Videokonferenz.
 
+![openDesk-Portal](portal.png)
+
 > **Hinweis:** Dies ist ein Demo-Aufbau, keine Produktionsanleitung. Abschnitt [Grenzen](#grenzen-der-demo) nennt, was bewusst fehlt.
 
 ## Was die Demo zeigt
